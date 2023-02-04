@@ -60,6 +60,10 @@
   justify-content: space-between;
 }
 
+.div-container h2 {
+  font-size: 28px;
+}
+
 .button-remove {
   background-color: #7c8897;
   height: 30px;
