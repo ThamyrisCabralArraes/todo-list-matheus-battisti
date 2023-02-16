@@ -1,15 +1,10 @@
 import './App.css';
 
-import { useState, useEffect } from 'react';
-import { BsTrash, BsBookmarkCheck, BsBookmarkCheckFill } from 'react-icons/bs';
-
-const API = 'http://localhost:5000';
+import { useState } from 'react';
 
 function App() {
   const [title, setTitle] = useState('');
-  const [time, setTime] = useState('');
   const [todos, setTodos] = useState([]);
-  const [loading, setloading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
